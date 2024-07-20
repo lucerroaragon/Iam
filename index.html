@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/LogoVentana.ico" type="image/x-icon">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+       
+        <a href="#Inicio" class="linkLogo"><img src="img/logofinal.png" alt=""></a>
+        <ul class="links">
+            <li class="link"><a href="#About me">About me</a></li>
+            <li class="link"><a href="#Skills">Skills</a></li>
+            <li class="link"><a href="#Portfolio">Portfolio</a></li>
+            <li class="link"><a href="#Contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list listaResponsive"></i>
+    </header>
+    <main>
+        <section class="hero" id="Inicio">
+            <div class="informacion">
+                <h1>I am <span>Luciana Cerro Aragon</span></h1>
+                <p>Front-End Developer</p>
+                <a href="#contact">Contact me</a>
+            </div>
+            <div class="iconos">
+                <div class="contenedor">
+                    <img src="img/linea.png" alt="">
+                    <a href="https://www.linkedin.com/in/cerroaragonl/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/lucerroaragon" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=541141804989"target="_blank"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="About me scroll" id="About me">
+
+            <div class="infoMia">
+                <h1>About me</h1>
+                <div class="texto">
+                    <i class="bi bi-dash-lg"></i>
+                    <p>Passionate about the technology and project management, I currently serve as a Product Owner while advancing in my studies in programming. I am enthusiastic about exploring cutting-edge ideas and innovative solutions that improve user experience. I believe that teamwork is essential to drive innovation and achieve goals.
+                        <br>
+                        In my development projects, I utilize a variety of technologies including HTML, CSS, JavaScript, TypeScript, React.js, Vue.js, Redux, and AWS, which enable me to create efficient, scalable, and user-friendly applications.
+                        <br>
+                    
+                    </p>
+
+                </div>
+                <a href="img/CV Luciana Cerro Aragon.pdf" download="Luciana_CerroAragon_CV" target="_blank" class="cv">Descargar CV<i class="bi bi-filetype-pdf"></i></a>
+            </div>
+
+            <div class="skills scroll" id="Skills">
+                <h1>Skills</h1>
+                <div class="ContHabilidades">
+                    <div class="grupoHabilidades"><div class="caja">
+                        <img src="img/HTML.svg">
+                        <h2>Html</h2>
+                        </div><div class="caja">
+                        <img src="img/CSS.svg">
+                        <h2>CSS</h2>
+                        </div><div class="caja">
+                        <img src="img/JS.svg">
+                        <h2>JavaScript</h2>
+                        </div><div class="caja">
+                        <img src="img/react.png">
+                        <h2>React</h2>
+                        </div>
+                    </div>
+                </div>  
+                    <div class="grupoHabilidades"><div class="caja">
+                        <img src="img/SQL.svg">
+                        <h2>SQL Server</h2>
+                         </div><div class="caja">
+                         <img src="img/cSharp.svg">
+                        <h2>C#</h2>
+                        </div><div class="caja">
+                         <img src="img/Vue.png">
+                        <h2> Vue.js</h2>
+                        </div><div class="caja">
+                         <img src="img/cMas.png">
+                         <h2>C++</h2>
+                            </div></div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="portfolio scroll" id="Portfolio">
+            <div class="contportfolio">
+                <h1>Portfolio</h1>
+                
+                <div class="grupoportfolio"><div class="cajaportfolio proy" style="background-image: url(&quot;img/pagina6.png&quot;);"><div class="contInfo">
+                    <h2>GlobeTrotter</h2>
+                    <p>Landing Page sobre vuelos y turismo</p>
+                    </div></div><div class="cajaportfolio proy" style="background-image: url(&quot;img/pagina5.png&quot;);"><div class="contInfo">
+                    <h2>Norway</h2>
+                    <p>Landing Page sobre turismo en Noruega</p>
+                    </div></div><div class="cajaportfolio proy" style="background-image: url(&quot;img/pagina4.png&quot;);"><div class="contInfo">
+                    <h2>Deports News</h2>
+                    <p>Landing Page sobre noticias deportivas</p>
+                    </div></div></div>
+                <div class="grupoportfolio"><div class="cajaportfolio proy" style="background-image: url(&quot;img/cear.png&quot;);"><div class="contInfo">
+                    <h2>Grupo Cear</h2>
+                    <p>Landing Page sobre broker de seguros</p>
+                    </div></div><div class="cajaportfolio proy" style="background-image: url(&quot;img/holy.png&quot;);"><div class="contInfo">
+                    <h2>Holy Madre</h2>
+                    <p>Landing Page sobre heladeria</p>
+                    </div></div><div class="cajaportfolio proy" style="background-image: url(&quot;img/pagina1.png&quot;);"><div class="contInfo">
+                    <h2>Login Page</h2>
+                    <p>Pagina para registrarse y ingresar</p>
+                     </div></div></div>
+            </div>
+            <a href="https://github.com/lucerroaragon" target="_blank" class="mas">VER<i class="bi bi-github"></i></a>
+        </section>
+
+        <section class="modal" id="modalFondo">
+            <div class="contModal" id="modal1">
+                <h1 id="contModal_titulo"></h1>
+                <p id="contModal_detalle"></p>
+                <div class="costado">
+                    <a id="contModal_url_repositorio" href="">Link Repository</a>
+                    <a id="contModal_url_pagina" href="">Link web</a>
+                </div>
+                
+                <button id="btnCerrar">Volver</button>
+            </div>
+        </section>
+
+        <section class="Contact scroll" id="Contact">
+            <h1>Contact me</h1>
+            <div class="contContacto">
+                <div class="deLado">
+                    <div class="cajaContacto copiar" id="mail">
+                        <i class="bi bi-envelope"></i>
+                        <p>lcerroaragon9@gmail.com</p>
+                    </div>
+                    <div class="cajaContacto copiar" id="telefono">
+                        <i class="bi bi-telephone"></i>
+                        <p>(+54) 11 4180-4989</p>
+                    </div>
+                </div>
+                <div class="cajaContacto">
+                    <i class="bi bi-geo-alt"></i>
+                    <p>Buenos Aires, Argentina</p>
+                </div>
+            </div>
+            <div class="linkContacto">
+                <a href="https://www.linkedin.com/in/cerroaragonl/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=541141804989" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTJnnfnhmGxlVdlNlGwzdVmwncGWPFfzsQwmZlHFFCVmrfmQBFnwGBVcsLxLRZtpBZWmkL" target="_blank"><i class="bi bi-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Thanks for visiting my portfolio!</h2>
+    </footer>
+    <div class="creditos">
+        <p>Code By <a  target="_blank"> Luciana Cerro Aragon</a></p>
+      </div>
+    <script src="Js/main.js"></script>
+</body>
+</html>
