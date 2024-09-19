@@ -1,0 +1,32 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.skills h1 {
+  color: var(--ColorLetraTransición);
+  font-size: 3.3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.skills h2 {
+  color: var(--ColorLetrasPrincipal);
+  padding-top: 20px;
+  transition: all 0.4s ease;
+}
+.contHabilidades {
+  display: flex;
+  flex-direction: column;
+}
+.grupoHabilidades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2.5rem;
+}

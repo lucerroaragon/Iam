@@ -1,0 +1,94 @@
+
+.portfolio {
+  background-color: var(--ColorFondoSecundario);
+  padding-top: 2.7rem;
+  padding-bottom: 2.6rem;
+}
+.contportfolio {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contportfolio h1 {
+  color: var(--ColorLetraTransición);
+  font-size: 3.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.grupoportfolio {
+  display: flex;
+  justify-content: space-between;
+}
+.cajaportfolio {
+  width: 31%;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+}
+.contInfo {
+  background-color: rgb(52, 53, 58, 0.8);
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+}
+.contInfo h2 {
+  color: var(--ColorLetrasSecundaria);
+  font-size: 2rem;
+}
+.contInfo p {
+  color: var(--ColorLetrasPrincipal);
+  font-size: 1.1rem;
+  padding-bottom: 15px;
+  color: var(--ColorFondoSecundario);
+  text-align: center;
+}
+.contInfo button {
+  padding: 5px 17px;
+  border-radius: 5px;
+  background-color: var(--ColorLetrasSecundaria);
+  color: var(--ColorFondoPrincipal);
+  border: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contInfo button:hover {
+  background-color: var(--ColorFondoPrincipal);
+  color: var(--ColorLetrasSecundaria);
+}
+.contInfo i {
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.portfolio .mas {
+  color: var(--ColorLetrasPrincipal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ColorLetrasSecundaria);
+  color: var(--ColorFondoPrincipal);
+  font-size: 1.05rem;
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 1.9rem;
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: all 0.6s ease;
+}
+.portfolio.mas:hover {
+  background-color: var(--ColorFondoPrincipal);
+  color: var(--ColorLetrasSecundaria);
+}

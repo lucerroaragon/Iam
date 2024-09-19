@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+/*Le doy a toda la pagina un margin y un padding 0, aparte
+de darle una tipografia en general*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  
+}
+:root {
+  --ColorFondoPrincipal: #bebebb;
+  --ColorFondoSecundario: #fefeff;
+  --ColorLetrasPrincipal: #030303;
+  --ColorLetrasSecundaria: #804775;
+  --ColorLetraTransición: #eabe0e;
+}
+/*scrollea cuando se accede a un link*/
+html {
+  scroll-behavior: smooth;
+}
+/*scrollea bien para que se vea el titulo*/
+.scroll {
+  scroll-margin-top: 12.3ex;
+}
+/*quita el subrallado*/
+a {
+  text-decoration: none;
+}

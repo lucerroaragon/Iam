@@ -1,0 +1,164 @@
+.aboutme {
+  background-color: var(--ColorFondoSecundario);
+  /* height: 168vh; */
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.infoMia {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 0.6rem;
+}
+.infoMia h1 {
+  color: var(--ColorLetraTransición);
+  font-size: 3.3rem;
+  padding-top: 50px;
+}
+.infoMia .texto {
+  display: flex;
+  margin-top: 30px;
+}
+.infoMia .texto i {
+  font-size: 2.5rem;
+  color: var(--ColorLetrasSecundaria);
+}
+.infoMia .texto p {
+  font-size: 1.3rem;
+  color: var(--ColorLetrasPrincipal);
+  padding-top: 10px;
+}
+.infoMia .texto span {
+  color: var(--ColorLetrasSecundaria);
+}
+.infoMia .cv {
+  margin: 0 auto;
+  color: var(--ColorLetrasSecundaria);
+  border: 4px solid var(--ColorLetrasSecundaria);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  position: relative;
+  transition: all 0.5s ease;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.infoMia .cv:hover {
+  background-color: var(--ColorLetrasSecundaria);
+  color: var(--ColorFondoPrincipal);
+}
+.infoMia .cv i {
+  font-size: 1.3rem;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ColorFondoPrincipal);
+  color: var(--ColorLetrasPrincipal);
+  border-radius: 15px;
+  width: 23%;
+  padding: 3rem 0rem;
+  transition: all 0.7s ease;
+}
+.caja:hover {
+  background-color: var(--ColorLetrasSecundaria);
+}
+.caja:hover h2 {
+  color: var(--ColorFondoPrincipal);
+}
+.caja img {
+  width: 25%;
+}
+.Experiencia {
+  background-color: var(--ColorFondoSecundario);
+  width: 100%;
+}
+.contExp {
+  width: 100%;
+  background-color: rgb(255, 200, 107, 0.1);
+  padding-bottom: 2rem;
+}
+.contExp h1 {
+  font-size: 3.3rem;
+  text-align: center;
+  color: var(--ColorLetraTransición);
+  padding-top: 2.5rem;
+  padding-bottom: 1.8rem;
+}
+
+.cajaExperiencia {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  align-items: start;
+}
+.iconoExp {
+  width: 18%;
+  padding-top: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.iconoExp i {
+  font-size: 2rem;
+  color: var(--ColorLetrasSecundaria);
+  padding-top: 0.3rem;
+}
+.iconoExp img {
+  border-radius: 5px;
+  padding-top: 1rem;
+  width: 7%;
+}
+.textoExp {
+  display: flex;
+  flex-direction: column;
+}
+.textoExp h2 {
+  color: var(--ColorLetrasSecundaria);
+  font-size: 2.8rem;
+}
+.textoExp h3 {
+  color: var(--ColorLetrasSecundaria);
+  font-size: 2rem;
+}
+.textoExp p {
+  color: var(--ColorLetrasPrincipal);
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+.linksExp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+.linksExp a {
+  padding: 5px 40px;
+  border-radius: 5px;
+  background-color: var(--ColorFondoPrincipal);
+  color: var(--ColorLetrasSecundaria);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.linksExp a:hover {
+  background-color: var(--ColorLetrasSecundaria);
+  color: var(--ColorFondoSecundario);
+}
