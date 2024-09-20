@@ -8,6 +8,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+    
 </head>
 <body>
     <header>
@@ -27,6 +29,24 @@
                 <p>Software Developer</p>
                 <a href="#Contact">Contact me</a>
             </div>
+            <!-- Contenedor para la animación -->
+            
+            <div style="display:flexbox; justify-items: flex-start; align-items: flex-start; height: 100vh; margin-top: 250px;">
+                <div id="lottie-animation" style="width: 300px; height: 300px;"></div>
+              </div>
+              
+
+            <script>
+                var animation = lottie.loadAnimation({
+                  container: document.getElementById('lottie-animation'), // El contenedor donde aparecerá la animación
+                  renderer: 'svg', // Usa el formato SVG para renderizar
+                  loop: true, // Si deseas que la animación se repita indefinidamente
+                  autoplay: true, // Hace que la animación comience automáticamente
+                  path: 'animacion.json' // La ruta de tu archivo JSON
+                });
+              </script>
+ 
+
             <div class="iconos">
                 <div class="contenedor">
                     <img src="img/linea.png" alt="">
@@ -190,6 +210,7 @@
     <div class="creditos">
         <p>Code By <a  target="_blank"> Luciana Cerro Aragon</a></p>
       </div>
-    <script src="Js/main.js"></script>
+    <script src="js/main.js"></script>
+   
 </body>
 </html>

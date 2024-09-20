@@ -226,3 +226,5 @@ divTelefono.addEventListener("click", () => {
   const texto = divTelefono.querySelector("p").textContent;
   navigator.clipboard.writeText(texto);
 });
+
+

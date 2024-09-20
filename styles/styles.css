@@ -14,6 +14,7 @@ de darle una tipografia en general*/
   --ColorLetrasPrincipal: #030303;
   --ColorLetrasSecundaria: #804775;
   --ColorLetraTransición: #eabe0e;
+  --ColorLetrasMenu: #fefeff;
 }
 
 /*scrollea cuando se accede a un link*/
@@ -96,7 +97,7 @@ a {
   /*Transicion del boton para darle mas detalle*/
   .hero .informacion a:hover {
     background-color: var(--ColorLetrasSecundaria);
-    color: var(--ColorFondoPrincipal);
+    color: var(--ColorLetrasMenu);
   }
   @keyframes botonDeLado {
     0% {
@@ -382,15 +383,16 @@ header img {
 .links .link a {
   display: block;
   padding-left: 40px;
-  color: #000000;
+  color: var(--ColorLetrasMenu);
   transition: color 0.6s;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*le doy pequeña transicion cuando pasan
   el mouse por arriba*/
 .links .link a:hover {
-  color: var(--ColorFondoSecundario);
+  color: var(--ColorLetraTransición);
 }
 
 footer {

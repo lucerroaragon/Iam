@@ -9,6 +9,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  
 }
 /*acomodo la imagen del Logo*/
 header img {
@@ -26,12 +27,13 @@ header img {
 .links .link a {
   display: block;
   padding-left: 40px;
-  color: #000000;
+  color: var(--ColorLetrasMenu);
   transition: color 0.6s;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 /*le doy pequeña transicion cuando pasan
   el mouse por arriba*/
 .links .link a:hover {
-  color: var(--ColorFondoSecundario);
+  color: var(--ColorLetraTransición);
 }
