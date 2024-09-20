@@ -9,21 +9,10 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  
-}
-/*acomodo la imagen del Logo*/
-header img {
-  width: 100%;
-}
- 
-.linkLogo {
-  width: 8.1%;
 }
 .links .link {
   display: inline-block;
 }
-/*cambio el color y el tamaño de la letra de los links
-  de la cabecera*/
 .links .link a {
   display: block;
   padding-left: 40px;
@@ -32,8 +21,6 @@ header img {
   font-size: 1.5rem;
   font-weight: bold;
 }
-/*le doy pequeña transicion cuando pasan
-  el mouse por arriba*/
 .links .link a:hover {
   color: var(--ColorLetraTransición);
 }

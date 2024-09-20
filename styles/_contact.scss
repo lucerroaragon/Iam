@@ -1,0 +1,79 @@
+
+.contContacto {
+  background: url(img/lineaAcostada.png), url(img/lineaAcostada.png),
+    url(img/lineaAcostada.png), url(img/lineaAcostada.png);
+  background-repeat: no-repeat;
+  background-position: top left, top right, bottom left, bottom right;
+  background-size: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 200, 107, 0.2);
+  position: relative;
+  padding: 4.5rem 0rem;
+}
+.contContacto h1 {
+  color: var(--ColorLetraTransición);
+  font-size: 3.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.deLado {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 20px;
+}
+.cajaContacto {
+  display: flex;
+  background-color: var(--ColorFondoPrincipal);
+  padding: 20px 20px;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+.copiar {
+  cursor: copy;
+}
+.cajaContacto i {
+  color: white;
+  font-size: 1.4rem;
+  padding-right: 15px;
+  transition: all 0.5s ease;
+}
+.cajaContacto p {
+  color: var(--ColorLetrasSecundaria);
+  font-size: 1.1rem;
+  transition: all 0.5s ease;
+}
+.cajaContacto:hover {
+  background-color: var(--ColorLetrasSecundaria);
+}
+.cajaContacto:hover p {
+  color: var(--ColorFondoPrincipal);
+}
+.cajaContacto:hover i {
+  color: black;
+}
+.linkContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+  padding-top: 1.7rem;
+}
+.linkContacto a {
+  color: var(--ColorLetrasPrincipal);
+  font-size: 1.6rem;
+  transition: all 0.5s ease;
+}
+.linkContacto a:hover {
+  color: var(--ColorLetrasSecundaria);
+}
+
+

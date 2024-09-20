@@ -9,19 +9,18 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
-    
 </head>
+
 <body>
     <header>
-       
         <ul class="links">
             <li class="link"><a href="#About me">About me</a></li>
             <li class="link"><a href="#Skills">Skills</a></li>
             <li class="link"><a href="#Portfolio">Portfolio</a></li>
             <li class="link"><a href="#Contact">Contact</a></li>
         </ul>
-    
     </header>
+
     <main>
         <section class="hero" id="Inicio">
             <div class="informacion">
@@ -29,24 +28,18 @@
                 <p>Software Developer</p>
                 <a href="#Contact">Contact me</a>
             </div>
-            <!-- Contenedor para la animación -->
-            
-            <div style="display:flexbox; justify-items: flex-start; align-items: flex-start; height: 100vh; margin-top: 250px;">
-                <div id="lottie-animation" style="width: 300px; height: 300px;"></div>
-              </div>
-              
-
-            <script>
-                var animation = lottie.loadAnimation({
-                  container: document.getElementById('lottie-animation'), // El contenedor donde aparecerá la animación
-                  renderer: 'svg', // Usa el formato SVG para renderizar
-                  loop: true, // Si deseas que la animación se repita indefinidamente
-                  autoplay: true, // Hace que la animación comience automáticamente
-                  path: 'animacion.json' // La ruta de tu archivo JSON
-                });
-              </script>
- 
-
+            <div class="animacion">
+                <div id="lottie-animation" class="lottie-animation"></div>
+                <script>
+                    var animation = lottie.loadAnimation({
+                        container: document.getElementById('lottie-animation'),
+                        renderer: 'svg',
+                        loop: true,
+                        autoplay: true,
+                        path: 'animacion.json'
+                    });
+                </script>
+            </div>
             <div class="iconos">
                 <div class="contenedor">
                     <img src="img/linea.png" alt="">
@@ -58,21 +51,14 @@
         </section>
 
         <section class="About me scroll" id="About me">
-
             <div class="infoMia">
                 <h1>About me</h1>
                 <div class="texto">
                     <i class="bi bi-dash-lg"></i>
-                    <p>Hello! I'm Luciana Cerro Aragón, a technology enthusiast with a strong motivation to keep growing in the exciting world of technological development.
-
-                        I am currently seeking new opportunities where I can apply and expand my technical knowledge.
-                        I am particularly interested in contributing to large-scale projects and continuing to develop innovative solutions in the tech field.
-                        <br>
-                        In my development projects, I utilize a variety of technologies including HTML, CSS, JavaScript , C++ , C# and SQL Server which enable me to create efficient, scalable, and user-friendly applications.
-                        <br>
-                    
+                    <p>Hello! I'm Luciana Cerro Aragón, a passionate professional with extensive experience in both software development and project management. My journey in the tech world has allowed me to work on a variety of projects, focusing on building efficient, scalable, and user-centered solutions.
+                        In addition to my technical skills, I currently serve as a Product Owner, where I lead cross-functional teams and ensure the success of projects from concept to delivery. My dual expertise in development and project management enables me to guarantee not only the technical excellence of each project but also its strategic alignment with business objectives.
+                        I am always excited to embrace new challenges, innovate, and continue contributing to the ever-evolving tech landscape.
                     </p>
-
                 </div>
                 <a href="img/CV - Luciana Cerro Aragon.pdf" download="Luciana_CerroAragon_CV" target="_blank" class="cv">Descargar CV Spanish<i class="bi bi-filetype-pdf"></i></a>
                 <a href="img/CV - Luciana Cerro Aragon.pdf" download="Luciana_CerroAragon_CV" target="_blank" class="cv">Descargar CV English<i class="bi bi-filetype-pdf"></i></a>
@@ -92,110 +78,121 @@
                         <img src="img/JS.svg">
                         <h2>JavaScript</h2>
                         </div><div class="caja">
-                        <img src="img/react.png">
-                        <h2>React</h2>
+                        <img src="img/net.png">
+                        <h2>.Net</h2>
                         </div>
                     </div>
-                </div>  
                     <div class="grupoHabilidades"><div class="caja">
-                        <img src="img/SQL.svg">
-                        <h2>SQL Server</h2>
+                         <img src="img/SQL.svg">
+                         <h2>SQL Server</h2>
                          </div><div class="caja">
                          <img src="img/cSharp.svg">
-                        <h2>C#</h2>
-                        </div><div class="caja">
-                         <img src="img/phyton.png">
-                        <h2> Phyton</h2>
-                        </div><div class="caja">
+                         <h2>C#</h2>
+                         </div><div class="caja">
+                         <img src="img/mongoDB.png">
+                         <h2> MongoDB</h2>
+                         </div><div class="caja">
                          <img src="img/cMas.png">
                          <h2>C++</h2>
-                            </div></div>
-
+                         </div>
+                    </div>
+                     <div class="grupoHabilidades"><div class="caja">
+                         <img src="img/git.png">
+                         <h2>GitHub</h2>
+                         </div><div class="caja">
+                         <img src="img/api_rest.png">
+                         <h2>Api Rest</h2>
+                         </div><div class="caja">
+                         <img src="img/scrum-png.png">
+                         <h2> Scrum/Agile<h2>
+                         </div><div class="caja">
+                         <img src="img/testing.png">
+                         <h2>Unit testing</h2>
+                         </div>
+                    </div>
+                     <div class="grupoHabilidades"><div class="caja">
+                         <img src="img/vtex.png">
+                         <h2>VTEX</h2>
+                         </div><div class="caja">
+                         <img src="img/diagrama.png">
+                         <h2>Draw io</h2>
+                         </div><div class="caja">
+                         <img src="img/shopify.png">
+                         <h2> Shopify<h2>
+                         </div><div class="caja">
+                         <img src="img/excel.png">
+                         <h2>Excel</h2>
+                         </div>
+                    </div>  
                 </div>
-            </div>
         </section>
 
- 
         <section class="portfolio scroll" id="Portfolio">
             <div class="contportfolio">
                 <h1>Portfolio</h1>
-                
                 <div class="grupoportfolio">
-                    <div class="cajaportfolio proy" style="background-image: url('img/app-calculadora.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
                         <div class="contInfo">
-                            <h2>Calculadora</h2>
-                            <p>Calculadora realizada con JavaScript</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
-                    <div class="cajaportfolio proy" style="background-image: url('img/calcu-prote.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
                         <div class="contInfo">
-                            <h2>Calculadora de proteinas</h2>
-                            <p>Te otorga los gramos de proteina a consumir en el deportivas segun nivel de actividad</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
-                    <div class="cajaportfolio proy" style="background-image: url('img/pagina4.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
                         <div class="contInfo">
-                            <h2>Deports News</h2>
-                            <p>Landing Page sobre noticias deportivas</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
                 </div>
         
                 <div class="grupoportfolio">
-                    <div class="cajaportfolio proy" style="background-image: url('img/cear.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
                         <div class="contInfo">
-                            <h2>Grupo Cear</h2>
-                            <p>Landing Page sobre broker de seguros</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
-                    <div class="cajaportfolio proy" style="background-image: url('img/holy.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
                         <div class="contInfo">
-                            <h2>Holy Madre</h2>
-                            <p>Web de una heladería argentina en España</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
-                    <div class="cajaportfolio proy" style="background-image: url('img/pagina1.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
                         <div class="contInfo">
-                            <h2>Login Page</h2>
-                            <p>Página para registrarse e ingresar</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <a href="https://github.com/lucerroaragon" target="_blank" class="mas">VER<i class="bi bi-github"></i></a>
-        </section>
-
-        <section class="modal" id="modalFondo">
-            <div class="contModal" id="modal1">
-                <h1 id="contModal_titulo"></h1>
-                <p id="contModal_detalle"></p>
-                <div class="costado">
-                    <a id="contModal_url_repositorio" href="">Link Repository</a>
-                    <a id="contModal_url_pagina" href="">Link web</a>
-                </div>
-                
-                <button id="btnCerrar">Volver</button>
-            </div>
+            <a href="https://github.com/lucerroaragon" target="_blank" class="mas">Look<i class="bi bi-github"></i></a>
         </section>
 
         <section class="Contact scroll" id="Contact">
             <div class="contContacto">
-                <h1>Contact me</h1>
-                <div class="deLado">
-                    <div class="cajaContacto copiar" id="mail">
-                        <i class="bi bi-envelope"></i>
-                        <p>lcerroaragon9@gmail.com</p>
-                    </div>
-                    <div class="cajaContacto copiar" id="telefono">
-                        <i class="bi bi-telephone"></i>
-                        <p>(+54) 11 4180-4989</p>
-                    </div>
-                </div>
-                <div class="cajaContacto">
+                  <h1>Contact me</h1>
+              <div class="deLado">
+                 <div class="cajaContacto copiar" id="mail">
+                 <i class="bi bi-envelope"></i>
+                    <p>lcerroaragon9@gmail.com</p>
+                 </div>
+                 <div class="cajaContacto copiar" id="telefono">
+                  <i class="bi bi-telephone"></i>
+                    <p>(+54) 11 4180-4989</p>
+                 </div>
+             </div>
+                 <div class="cajaContacto">
                     <i class="bi bi-geo-alt"></i>
                     <p>Buenos Aires, Argentina</p>
-                </div>
+                 </div>
             </div>
             <div class="linkContacto">
                 <a href="https://www.linkedin.com/in/cerroaragonl/" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -203,14 +200,18 @@
                 <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTJnnfnhmGxlVdlNlGwzdVmwncGWPFfzsQwmZlHFFCVmrfmQBFnwGBVcsLxLRZtpBZWmkL" target="_blank"><i class="bi bi-envelope"></i></a>
             </div>
         </section>
+
     </main>
+
     <footer>
         <h2>Thanks for visiting my portfolio!</h2>
-    </footer>
-    <div class="creditos">
-        <p>Code By <a  target="_blank"> Luciana Cerro Aragon</a></p>
+     <div class="creditos">
+        <p>Code By  Luciana Cerro Aragon</p>
       </div>
-    <script src="js/main.js"></script>
+    </footer>
+
+     <script src="js/main.js"></script>
    
 </body>
+
 </html>
