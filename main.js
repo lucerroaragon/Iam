@@ -1,4 +1,3 @@
-const BotonMenu = document.querySelector(".listaResponsive");
 const Menu = document.querySelector(".links");
 
 BotonMenu.addEventListener("click", () => {
@@ -84,18 +83,5 @@ const renderHabilidades = () => {
     divGrupoHabilidad.appendChild(divHabilidad);
   });
 };
-
-
-//COPIAR LO QUE ESTA EN MAIL Y TELEFONO
-const divMail = document.getElementById("mail");
-const divTelefono = document.getElementById("telefono");
-divMail.addEventListener("click", () => {
-  const texto = divMail.querySelector("p").textContent;
-  navigator.clipboard.writeText(texto);
-});
-divTelefono.addEventListener("click", () => {
-  const texto = divTelefono.querySelector("p").textContent;
-  navigator.clipboard.writeText(texto);
-});
 
 

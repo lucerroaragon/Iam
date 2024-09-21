@@ -1,6 +1,6 @@
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--ColorLetrasSecundaria);
   height: 15vh;
@@ -24,3 +24,9 @@ header {
 .links .link a:hover {
   color: var(--ColorLetraTransición);
 }
+
+.logo {
+  margin-right: 20px; 
+  width: 100px;
+}
+
