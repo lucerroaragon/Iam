@@ -65,7 +65,7 @@
                 </div>
             </div>
                 <a href="img/CV - Luciana Cerro Aragon.pdf" download="Luciana_CerroAragon_CV" target="_blank" class="cv">Descargar CV Spanish<i class="bi bi-filetype-pdf"></i></a>
-                <a href="img/CV - Luciana Cerro Aragon.pdf" download="Luciana_CerroAragon_CV" target="_blank" class="cv">Descargar CV English<i class="bi bi-filetype-pdf"></i></a>
+                <a href="img/CV - Luciana Cerro Aragon - ing.pdf" download="Luciana_CerroAragon_CV" target="_blank" class="cv">Descargar CV English<i class="bi bi-filetype-pdf"></i></a>
             </div>
 
         </section>
@@ -136,10 +136,11 @@
             <div class="contportfolio">
                 <h1>Portfolio</h1>
                 <div class="grupoportfolio">
-                    <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
+                    <div class="cajaportfolio proy" style="background-image: url('img/holy.png');">
                         <div class="contInfo">
                             <h2></h2>
                             <p></p>
+                            <a href="https://www.holy-madre.com" target="_blank"><i class=""></i></a>
                         </div>
                     </div>
                     <div class="cajaportfolio proy" style="background-image: url('img/under.png');">
@@ -182,22 +183,41 @@
         </section>
 
         <section class="Contact scroll" id="Contact">
+            
             <div class="contContacto">
-                  <h1>Contact me</h1>
-              <div class="deLado">
-                 <div class="cajaContacto copiar" id="mail">
-                 <i class="bi bi-envelope"></i>
-                    <p>lcerroaragon9@gmail.com</p>
-                 </div>
-                 <div class="cajaContacto copiar" id="telefono">
-                  <i class="bi bi-telephone"></i>
-                    <p>(+54) 11 4180-4989</p>
-                 </div>
-             </div>
-                 <div class="cajaContacto">
+                <h1>Contact me</h1>
+                <div class="deLado">
+                    <div class="cajaContacto copiar" id="mail">
+                        <i class="bi bi-envelope"></i>
+                        <p>lcerroaragon9@gmail.com</p>
+                    </div>
+                    <div class="cajaContacto copiar" id="telefono">
+                        <i class="bi bi-telephone"></i>
+                        <p>(+54) 11 4180-4989</p>
+                    </div>
+                </div>
+                <div class="cajaContacto">
                     <i class="bi bi-geo-alt"></i>
                     <p>Buenos Aires, Argentina</p>
-                 </div>
+                </div>
+            </div>
+            <div class="formulario"></div>
+            <div></div>
+                <form action="tu_script_de_envio.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
             </div>
             <div class="linkContacto">
                 <a href="https://www.linkedin.com/in/cerroaragonl/" target="_blank"><i class="bi bi-linkedin"></i></a>

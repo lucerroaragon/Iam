@@ -55,14 +55,14 @@
   font-size: 1.3rem;
 }
 .contenido {
-  display: flex; /* Usamos flexbox para organizar el contenido en fila */
-  align-items: center; /* Centra verticalmente la imagen y el texto */
-  gap: 20px; /* Espacio entre la imagen y el texto */
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
 }
 .perfil {
-  width: 150px; /* Ajusta el tamaño según lo necesites */
-  height: 150px; /* Mantén el mismo tamaño para que sea circular */
-  border-radius: 50%; /* Esto hace que la imagen sea circular */
-  object-fit: cover; /* Asegura que la imagen mantenga la proporción */
-  border: 2px solid #fff; /* Agrega un borde blanco, opcional */
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 2px solid #fff; 
 }
